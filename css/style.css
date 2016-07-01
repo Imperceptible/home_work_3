@@ -1,49 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .all {
-    max-width: 960px;
+    width: 1060px;
     margin: 0 auto;
-    border-left: 2px solid black; /* Линия слева от текста */
-    border-right: 2px solid black; /* Линия справа от текста */
-    padding: 0 10px; /* Расстояние между линией и текстом */
+    padding: 50px;
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+    font-family: sans-serif;
+    font-size: 12x;
+}
+.header {
+    background-color: white;
+    float: none;
+    position: relative;
+    overflow: hidden;
 }
 
-/* Header */
-.mainmenu{
-    /*float: left;*/
+.logo {
+    margin-bottom: 40px;
 }
 
-/* 29.06.2016 antonpamalis *8) */
+.mainmenu {
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    background: linear-gradient(to bottom, rgba(94, 94, 94, 1) 0%, rgba(67, 67, 67, 1) 100%);
+
+}
 
 .mainmenu li {
-    float: left;
-    list-style: none; /* hide dotted */
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.mainmenu li a {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.mainmenu li :hover {
 
 }
 
-/* Content */
-.body {
-    clear: both; /* dont float */
+.conteiner {
+    position: relative;
+    overflow: hidden;
 }
 
 .secondmenu {
-    width: 30%;
+    /*background-color: #ffcfd7;*/
     float: left;
+    width: 30%;
+    /*margin-top: 20px;*/
+}
+
+.secondmenu li {
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #c8c8c8;
+    margin-top: -1px;
+    padding-left: 20px;
+    /*padding: 5px;
+    margin-top: 1px;
+    margin-right: 5px;
+    border: 1px solid #000000;*/
+}
+
+.secondmenu li a {
+    display: block;
+    padding-left: 10px;
+    color: #656363;
+    text-decoration: none;
+}
+
+.secondmenu li a:hover {
+    padding-left: 20px;
+    color: #2c2c2c;
+    text-decoration: none;
 }
 
 .content {
+    background-color: #d6e9f8;
     float: right;
     width: 70%;
 }
 
-.content img {
-    max-width: 100%;
+.foto img {
+    max-width: 95%;
+    border: 2px groove #d5d5d5;
 }
 
-/* Footer */
+.text {
+    max-height: 80%;
+}
+
 .footer {
-    clear: both; /* dont float */
+    background-color: #5affb6;
+    float: none;
+    position: relative;
+    overflow: hidden;
 }
 
-.footer ul li {
+.footer li {
     float: left;
     list-style: none;
+    padding: 5px;
+    margin: 10px 25px;
 }

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    max-width: 960px;
+    margin: 0 auto;
+    border-left: 2px solid black; /* Линия слева от текста */
+    border-right: 2px solid black; /* Линия справа от текста */
+    padding: 0 10px; /* Расстояние между линией и текстом */
+}
+
+/* Header */
+.mainmenu{
+    /*float: left;*/
+}
+
+/* 29.06.2016 antonpamalis *8) */
+
+.mainmenu li {
+    float: left;
+    list-style: none; /* hide dotted */
+
+}
+
+/* Content */
+.body {
+    clear: both; /* dont float */
+}
+
+.secondmenu {
+    width: 30%;
+    float: left;
+}
+
+.content {
+    float: right;
+    width: 70%;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    clear: both; /* dont float */
+}
+
+.footer ul li {
+    float: left;
+    list-style: none;
+}
