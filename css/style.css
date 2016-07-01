@@ -24,6 +24,7 @@
 }
 
 .mainmenu {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     list-style: none;
@@ -50,8 +51,6 @@
     padding-top: 10px;
 }
 
-
-
 .mainmenu li :hover {
 
 }
@@ -59,26 +58,27 @@
 .conteiner {
     position: relative;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 .secondmenu {
-    /*background-color: #ffcfd7;*/
     float: left;
     width: 30%;
-    /*margin-top: 20px;*/
+
 }
+
+/*.secondmenu ul {
+    background-color: #ffcfd7;
+    width: 240px;
+}*/
 
 .secondmenu li {
     width: 240px;
     height: 40px;
     line-height: 40px;
     border: 1px solid #c8c8c8;
-    margin-top: -1px;
+    /*margin-top: -1px;*/
     padding-left: 20px;
-    /*padding: 5px;
-    margin-top: 1px;
-    margin-right: 5px;
-    border: 1px solid #000000;*/
 }
 
 .secondmenu li a {
