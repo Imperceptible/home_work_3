@@ -36,9 +36,9 @@
     display: inline-block;
     width: 145px;
     height: 40px;
-    cursor: pointer;
-    vertical-align: middle;
-    text-shadow: 1px 1px 1px gray;
+    /*cursor: pointer;*/
+    /*vertical-align: middle;*/
+    /*text-shadow: 1px 1px 1px gray;*/
 }
 
 .mainmenu li a {
@@ -69,21 +69,20 @@
 .secondmenu {
     float: left;
     width: 30%;
-
 }
 
-.secondmenu li {
+.nav li {
     width: 240px;
-    height: 40px;
+    /*height: 40px;*/
     line-height: 40px;
     border: 2px solid #c8c8c8;
     /*margin-top: -1px;*/
     padding-left: 20px;
     border-top: none;
-
+    list-style-type: none;
 }
 
-.secondmenu li:first-child {
+.nav li:first-child {
     border-top: solid 2px #c8c8c8;
 }
 
@@ -92,14 +91,14 @@
 }
 
 
-.secondmenu li a {
+.nav li a {
     display: block;
     padding-left: 10px;
     color: #656363;
     text-decoration: none;
 }
 
-.secondmenu li a:hover {
+.nav li a:hover {
     padding-left: 20px;
     color: #2c2c2c;
     /*text-decoration: none;*/
@@ -113,7 +112,7 @@
 
 .foto {
     border: 2px solid #c8c8c8;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 40px;
 }
 
@@ -163,7 +162,7 @@
 
 .copyrights p {
     float: right;
-    display: block;
+    /*display: block;*/
     line-height: 50px;
     padding-right: 25px;
 }
