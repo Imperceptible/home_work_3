@@ -10,7 +10,7 @@
     background: white;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
     font-family: sans-serif;
-    font-size: 12x;
+    /*font-size: 14x;*/
 }
 .header {
     background-color: white;
@@ -34,7 +34,7 @@
 
 .mainmenu li {
     display: inline-block;
-    width: 130px;
+    width: 145px;
     height: 40px;
     cursor: pointer;
     vertical-align: middle;
@@ -52,7 +52,12 @@
 }
 
 .mainmenu li :hover {
-
+    /*height: 30px;*/
+    display: block;
+    /*vertical-align: middle;*/
+    background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
 }
 
 .conteiner {
@@ -67,19 +72,25 @@
 
 }
 
-/*.secondmenu ul {
-    background-color: #ffcfd7;
-    width: 240px;
-}*/
-
 .secondmenu li {
     width: 240px;
     height: 40px;
     line-height: 40px;
-    border: 1px solid #c8c8c8;
+    border: 2px solid #c8c8c8;
     /*margin-top: -1px;*/
     padding-left: 20px;
+    border-top: none;
+
 }
+
+.secondmenu li:first-child {
+    border-top: solid 2px #c8c8c8;
+}
+
+.nav li:hover {
+    background-color: #f9f9f9;
+}
+
 
 .secondmenu li a {
     display: block;
@@ -91,34 +102,55 @@
 .secondmenu li a:hover {
     padding-left: 20px;
     color: #2c2c2c;
-    text-decoration: none;
+    /*text-decoration: none;*/
+
 }
 
 .content {
-    background-color: #d6e9f8;
     float: right;
     width: 70%;
 }
 
+.foto {
+    border: 2px solid #c8c8c8;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .foto img {
-    max-width: 95%;
-    border: 2px groove #d5d5d5;
+    max-width: 100%;
 }
 
 .text {
-    max-height: 80%;
+    margin: 0 0 60px 25px
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .footer {
-    background-color: #5affb6;
+    background-color: #e1e1e1;
     float: none;
     position: relative;
     overflow: hidden;
+    color: #2c2c2c;
 }
 
 .footer li {
     float: left;
+    display: block;
+    line-height: 50px;
+    width: 100%;
+    /*display: inline-block;*/
+    vertical-align: middle;
     list-style: none;
-    padding: 5px;
-    margin: 10px 25px;
+    background: linear-gradient(to bottom, rgba(94, 94, 94, 1) 0%, rgba(67, 67, 67, 1) 100%);
+
 }
+.footer p {
+    float: right;
+    display: block;
+    line-height: 50px;
+    padding-right: 25px;
