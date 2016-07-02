@@ -10,11 +10,8 @@
     background: white;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
     font-family: sans-serif;
-    /*font-size: 14x;*/
 }
 .header {
-    /*background-color: white;
-    float: none;*/
     position: relative;
     overflow: hidden;
 }
@@ -24,21 +21,13 @@
 }
 
 .mainmenu {
-    /*width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    list-style: none;*/
     background: linear-gradient(to bottom, rgba(94, 94, 94, 1) 0%, rgba(67, 67, 67, 1) 100%);
-
 }
 
 .mainmenu li {
     display: inline-block;
     width: 145px;
     height: 40px;
-    /*cursor: pointer;*/
-    /*vertical-align: middle;*/
-    /*text-shadow: 1px 1px 1px gray;*/
 }
 
 .mainmenu li a {
@@ -52,9 +41,7 @@
 }
 
 .mainmenu li :hover {
-    /*height: 30px;*/
     display: block;
-    /*vertical-align: middle;*/
     background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
@@ -73,10 +60,8 @@
 
 .nav li {
     width: 240px;
-    /*height: 40px;*/
     line-height: 40px;
     border: 2px solid #c8c8c8;
-    /*margin-top: -1px;*/
     padding-left: 20px;
     border-top: none;
     list-style-type: none;
@@ -90,7 +75,6 @@
     background-color: #f9f9f9;
 }
 
-
 .nav li a {
     display: block;
     padding-left: 10px;
@@ -101,8 +85,6 @@
 .nav li a:hover {
     padding-left: 20px;
     color: #2c2c2c;
-    /*text-decoration: none;*/
-
 }
 
 .content {
@@ -112,7 +94,6 @@
 
 .foto {
     border: 2px solid #c8c8c8;
-    /*text-align: center;*/
     margin-bottom: 40px;
 }
 
@@ -138,19 +119,14 @@
 
 .footermenu {
     float: left;
-
-}
-
-.footermenu ul {
-
 }
 
 .footermenu li {
     display: inline;
     margin: 40px;
     padding: 20px;
-
 }
+
 .footermenu li a {
     text-decoration: none;
     color: #2c2c2c;
@@ -162,7 +138,6 @@
 
 .copyrights p {
     float: right;
-    /*display: block;*/
     line-height: 50px;
     padding-right: 25px;
 }
