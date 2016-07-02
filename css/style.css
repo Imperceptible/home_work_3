@@ -13,8 +13,8 @@
     /*font-size: 14x;*/
 }
 .header {
-    background-color: white;
-    float: none;
+    /*background-color: white;
+    float: none;*/
     position: relative;
     overflow: hidden;
 }
@@ -24,10 +24,10 @@
 }
 
 .mainmenu {
-    width: 100%;
+    /*width: 100%;
     display: inline-block;
     vertical-align: middle;
-    list-style: none;
+    list-style: none;*/
     background: linear-gradient(to bottom, rgba(94, 94, 94, 1) 0%, rgba(67, 67, 67, 1) 100%);
 
 }
@@ -131,26 +131,39 @@
 }
 
 .footer {
-    background-color: #e1e1e1;
-    float: none;
     position: relative;
     overflow: hidden;
+    background-color: #e1e1e1;
+    line-height: 50px;
+}
+
+.footermenu {
+    float: left;
+
+}
+
+.footermenu ul {
+
+}
+
+.footermenu li {
+    display: inline;
+    margin: 40px;
+    padding: 20px;
+
+}
+.footermenu li a {
+    text-decoration: none;
     color: #2c2c2c;
 }
 
-.footer li {
-    float: left;
-    display: block;
-    line-height: 50px;
-    width: 100%;
-    /*display: inline-block;*/
-    vertical-align: middle;
-    list-style: none;
-    background: linear-gradient(to bottom, rgba(94, 94, 94, 1) 0%, rgba(67, 67, 67, 1) 100%);
-
+.footermenu li a:hover{
+    text-decoration: underline;
 }
-.footer p {
+
+.copyrights p {
     float: right;
     display: block;
     line-height: 50px;
     padding-right: 25px;
+}
